@@ -1,0 +1,14 @@
+# react-router-jam
+
+> A file-system/folder-based routing library for React Router v7 / Remix.
+
+## Documentation
+
+- [README](README.md)
+- [Contributing Guide](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
+- [License](LICENSE.md)
+
+## Source
+
+- [Source Code](index.ts)

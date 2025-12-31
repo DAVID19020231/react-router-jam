@@ -1,0 +1,56 @@
+{
+  "name": "react-router-jam",
+  "version": "0.1.0",
+  "module": "index.ts",
+  "description": "A file-system/folder-based routing library for React Router v7 / Remix.",
+  "keywords": [
+    "react-router",
+    "routing",
+    "file-system",
+    "remix",
+    "bun",
+    "jam"
+  ],
+  "author": "Jonathan Irhodia <jonathanirhodia@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcharitas/react-router-jam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elcharitas/react-router-jam/issues"
+  },
+  "homepage": "https://github.com/elcharitas/react-router-jam#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "bun build ./index.ts --outdir ./dist --target node --sourcemap=none && tsc -p tsconfig.build.json",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@react-router/dev": "^7.11.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "@react-router/dev": "^7.11.0"
+  },
+  "dependencies": {
+    "minimatch": "^10.1.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
