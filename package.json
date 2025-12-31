@@ -36,7 +36,7 @@
     }
   },
   "scripts": {
-    "build": "bun build ./index.ts --outdir ./dist --target node --sourcemap=none && tsc -p tsconfig.build.json",
+    "build": "bun build ./index.ts --outdir ./dist --target node --sourcemap=none --external minimatch --external @react-router/dev && tsc -p tsconfig.build.json",
     "prepublishOnly": "bun run build"
   },
   "devDependencies": {
